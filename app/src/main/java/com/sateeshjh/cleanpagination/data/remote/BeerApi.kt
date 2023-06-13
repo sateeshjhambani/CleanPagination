@@ -3,7 +3,7 @@ package com.sateeshjh.cleanpagination.data.remote
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-interface BeerAPi {
+interface BeerApi {
 
     @GET("beers")
     suspend fun getBeers(
